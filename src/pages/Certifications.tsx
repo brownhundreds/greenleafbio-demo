@@ -11,22 +11,22 @@ const fadeUp = {
 const certs = [
   {
     icon: ShieldCheck,
-    title: "ASTM D6400",
+    title: "Your Certification Here",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     icon: Award,
-    title: "EN 13432",
+    title: "Your Certification Here",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
   },
   {
     icon: FileCheck,
-    title: "BPI Certified",
+    title: "Your Certification Here",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit.",
   },
   {
     icon: Award,
-    title: "TÜV Austria OK Compost",
+    title: "Your Certification Here",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
   },
 ];

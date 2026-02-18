@@ -32,7 +32,7 @@ const products = [
 ];
 
 const trustPoints = [
-  { icon: ShieldCheck, title: "Certified Compostable", desc: "ASTM D6400 & EN 13432 compliant" },
+  { icon: ShieldCheck, title: "Certified Compostable", desc: "Your certification here" },
   { icon: Leaf, title: "Plant-Based Materials", desc: "Made from renewable resources" },
   { icon: Truck, title: "Canada & USA Delivery", desc: "Reliable B2B supply chain" },
   { icon: Recycle, title: "Zero Greenwashing", desc: "Verified claims, real certifications" },
@@ -66,9 +66,24 @@ const Index = () => (
             <Button size="lg" asChild>
               <Link to="/contact">Request a Quote <ArrowRight className="ml-2 h-4 w-4" /></Link>
             </Button>
-            <Button size="lg" variant="outline" className="border-primary-foreground/30 text-foreground bg-card/90 hover:bg-card" asChild>
+            <Button
+              size="lg"
+              variant="outline"
+              className="
+    border-white/40
+    text-white
+    bg-white/10
+    backdrop-blur
+    hover:bg-white/20
+    hover:text-white
+    transition-all
+  "
+              asChild
+            >
               <Link to="/products">View Products</Link>
             </Button>
+
+
           </motion.div>
         </motion.div>
       </div>
