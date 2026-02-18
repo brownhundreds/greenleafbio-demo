@@ -13,6 +13,7 @@
     "test:watch": "vitest",
     "deploy": "npm run build"
   },
+  "homepage": "https://brownhundreds.github.io/greenleafbio-demo",
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",
