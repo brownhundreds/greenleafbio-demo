@@ -12,7 +12,7 @@ const Footer = () => (
           <Link to="/" className="flex items-center gap-3">
             <img
               src={logo}
-              alt="GreenLeaf Bio"
+              alt="Greenleaf-Bio"
               className="h-10 w-auto object-contain"
             />
             <span className="text-lg font-semibold tracking-tight">
@@ -105,7 +105,7 @@ const Footer = () => (
 
       {/* Bottom Bar */}
       <div className="mt-12 border-t border-primary-foreground/10 pt-6 text-center text-xs opacity-50">
-        © {new Date().getFullYear()} GreenLeaf Bio. All rights reserved.
+        © {new Date().getFullYear()} Greenleaf-Bio. All rights reserved.
       </div>
     </div>
   </footer>

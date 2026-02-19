@@ -24,7 +24,7 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-3">
           <img
             src={logo}
-            alt="GreenLeaf Bio"
+            alt="Greenleaf-Bio"
             className="h-10 w-auto object-contain md:h-12"
           />
 
