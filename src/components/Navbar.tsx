@@ -29,7 +29,7 @@ const Navbar = () => {
           />
 
           <span className="text-lg md:text-xl font-semibold tracking-tight">
-            <span className="text-foreground">GreenLeaf - </span>
+            <span className="text-foreground">GreenLeaf -</span>
             <span className="text-primary font-bold ml-2">Bio</span>
           </span>
         </Link>

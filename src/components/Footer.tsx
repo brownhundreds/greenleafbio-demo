@@ -16,7 +16,7 @@ const Footer = () => (
               className="h-10 w-auto object-contain"
             />
             <span className="text-lg font-semibold tracking-tight">
-              <span className="text-primary-foreground">GreenLeaf - </span>
+              <span className="text-primary-foreground">GreenLeaf -</span>
               <span className="text-primary font-bold ml-2">Bio</span>
             </span>
           </Link>
