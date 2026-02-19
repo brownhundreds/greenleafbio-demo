@@ -93,7 +93,9 @@
     font-family: 'DM Sans', sans-serif;
   }
 
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     font-family: 'DM Serif Display', serif;
   }
 }
