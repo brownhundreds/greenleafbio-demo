@@ -26,7 +26,7 @@ function getString(formData: FormData, key: string): string {
 function buildSubmissionFormData(form: HTMLFormElement, product: string) {
   const formData = new FormData(form);
 
-  // Honeypot: bots often fill it; humans don’t
+  // Honeypot: bots often fill it; humans don't
   const honeypot = getString(formData, "website");
   if (honeypot) return { formData, isSpam: true };
 
@@ -73,7 +73,7 @@ const Contact = () => {
         setProduct("");
       } else {
         toast({
-          title: "Couldn’t send message",
+          title: "Couldn't send message",
           description: result.message || "Please try again.",
         });
       }
@@ -147,6 +147,16 @@ const Contact = () => {
                   </li>
 
                   <li className="flex items-start gap-3">
+                    <Phone className="h-5 w-5 text-primary mt-0.5" />
+                    <div>
+                      <p className="text-sm text-muted-foreground">Cell</p>
+                      <a href="tel:+16478225127" className="text-foreground hover:text-primary transition-colors">
+                        647-822-5127
+                      </a>
+                    </div>
+                  </li>
+
+                  <li className="flex items-start gap-3">
                     <MessageCircle className="h-5 w-5 text-primary mt-0.5" />
                     <div>
                       <p className="text-sm text-muted-foreground">WhatsApp</p>
@@ -215,13 +225,8 @@ const Contact = () => {
                   </SelectContent>
                 </Select>
 
-                {/* ensures it’s included in FormData */}
+                {/* ensures it's included in FormData */}
                 <input type="hidden" name="product" value={product} />
-              </div>
-
-              <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Estimated Volume / Frequency</label>
-                <Input name="volume" placeholder="e.g., 10,000 units/month (optional)" maxLength={100} />
               </div>
 
               <div className="space-y-2">
